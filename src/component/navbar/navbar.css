@@ -1,0 +1,36 @@
+button {
+    margin: 5px;
+    float: right;
+}
+
+#btn-connexion {
+    background: #fff;
+    padding: 10px;
+    border-radius: 15px;
+    border: none;
+    cursor: pointer;
+}
+
+#btn-inscription {
+    background: #000;
+    padding: 10px;
+    border-radius: 15px;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+#btn-inscription:hover {
+    opacity: .8;
+}
+
+
+/*
+.Container-Nav {
+
+}
+
+.The-NavBar-Button {
+    
+}
+*/
