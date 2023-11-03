@@ -1,11 +1,10 @@
-import NavBar from "./components/navBar/navBar";
-
+import React from 'react'; 
 
 function App() {
   return (
     <div>
 
-      <NavBar />
+      <h1>Uber eats</h1>
     </div>
   );
 }
