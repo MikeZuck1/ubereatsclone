@@ -1,0 +1,158 @@
+*  {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/*------------------------- NavBar & burger menu ------------------------- */
+nav {
+    width: 100%; 
+    /* height: 5em;  */
+    display: flex; 
+    justify-content: flex-start; 
+    padding: 1em;
+    /* background: rgb(37, 39, 53);  */
+}
+
+.burger-menu-navbar {
+    height: 30%;
+    width: 3em;
+    /* background-color: #000;  */
+    /* display: flex;  */
+    align-items: flex-start;  
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.burger-bar {
+    width: 4em;
+    height: 0.5em; 
+    background-color: #000;
+    border-radius: 0.5em; 
+}
+
+.menu {
+    width: 20%;
+    height: 100vh;
+    background-color: rgb(154, 181, 240);
+    position: absolute;
+    top: 0;
+    /* z-index: -1;  */
+
+}
+
+/*------------------------- sliding menu ------------------------- */
+.hidden {
+    display: none;
+}
+
+.visible {
+    display: inherit;
+}
+
+/*------------------------- animations ------------------------- */
+/* Clicked */
+/*.burger-bar.clicked:nth-child(1) {
+    transform: rotate(45deg) translate(0.75, 1.25em);
+    transition: ease-out 0.5s;
+}
+
+.burger-bar.clicked:nth-child(2) {
+    transform: scale(0.1);
+    transition: ease-out 0.5s;
+}
+
+.burger-bar.clicked:nth-child(3) {
+    transform: rotate(135deg) translate(-0.5em, 1em);
+    transition: ease-out 0.5s;
+}*/
+
+
+/* unclicked */
+/*.burger-bar.uncklicked {
+    transform: rotate(0) translate(0);
+    transition: cubic-bezier(0.175, 0.85, 0.32, 1.275);
+}*/
+
+/*------------------------- Buttons in the navbar ------------------------- */ 
+
+button {
+    margin: 5px;
+    float: right;
+}
+
+#btn-connexion {
+    background: #fff; 
+    padding: 10px;
+    border-radius: 15px;
+    border: none;
+    cursor: pointer;
+}
+
+#btn-inscription {
+    background: #000;
+    padding: 10px;
+    border-radius: 15px;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+#btn-inscription:hover {
+    opacity: .8;
+}
+
+
+/*------------------------- Buttons & paragraph sidebar ------------------------- */ 
+.first-button-sidebar {
+    padding: 15px;
+    border-radius: 10px;
+    border: none;
+    color: #fff;
+    background-color: #000;
+    width: 100px;
+    cursor: pointer; 
+}
+
+.first-button-sidebar:hover {
+    opacity: .8;
+}
+
+.second-button-sidebar {
+    padding: 15px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.paragraph-sidebar-top {
+    margin-top: 70px;
+    font-family: "roboto", sans-serif;
+}
+
+.link-paragraph-sidebar {
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+.third-button-sidebar {
+    padding: 10px;
+    border-radius: 20px;
+    width: 90px;
+    border: none;
+    cursor: pointer;
+    font-family: "roboto", sans-serif;
+}
+
+.fourth-button-seidebar {
+    padding: 10px;
+    border-radius: 20px;
+    width: 90px;
+    border: none;
+    cursor: pointer;
+    font-family: "roboto", sans-serif;
+}
+
+.button-sidebar-down {
+    bottom: 0;
+}
+
